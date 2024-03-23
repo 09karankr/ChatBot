@@ -66,6 +66,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    //
+    //add the dependency for the google ai client sdk for android
+    implementation(libs.generativeai)
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
 }
